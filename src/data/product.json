@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "title": "Découvrez Notre Produit Exceptionnel",
+    "description": "Une solution innovante qui transformera votre quotidien. Simple, efficace, et élégant.",
+    "cta": "Commander Maintenant"
+  },
+  "features": {
+    "title": "Caractéristiques Principales",
+    "items": [
+      {
+        "title": "Design Premium",
+        "description": "Un design élégant et moderne qui s'intègre parfaitement dans votre espace."
+      },
+      {
+        "title": "Haute Performance",
+        "description": "Des performances exceptionnelles pour répondre à tous vos besoins."
+      },
+      {
+        "title": "Facile à Utiliser",
+        "description": "Une interface intuitive qui rend l'utilisation simple et agréable."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Pourquoi Nous Choisir ?",
+    "items": [
+      {
+        "title": "Qualité Premium",
+        "description": "Des matériaux de la plus haute qualité pour une durabilité exceptionnelle."
+      },
+      {
+        "title": "Support 24/7",
+        "description": "Une équipe dédiée à votre service à tout moment."
+      }
+    ],
+    "image": "/product-placeholder.jfif"
+  },
+  "pricing": {
+    "title": "Offre Spéciale",
+    "subtitle": "Profitez de notre prix de lancement",
+    "currentPrice": "99€",
+    "originalPrice": "149€",
+    "cta": "Commander Maintenant"
+  },
+  "footer": {
+    "about": {
+      "title": "À Propos",
+      "description": "Nous sommes dédiés à fournir les meilleurs produits pour nos clients."
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "contact@example.com",
+      "phone": "+33 1 23 45 67 89"
+    },
+    "social": {
+      "title": "Suivez-nous",
+      "links": [
+        {
+          "name": "Facebook",
+          "url": "#"
+        },
+        {
+          "name": "Twitter",
+          "url": "#"
+        },
+        {
+          "name": "Instagram",
+          "url": "#"
+        }
+      ]
+    },
+    "copyright": "© 2024 Votre Entreprise. Tous droits réservés."
+  }
+} 

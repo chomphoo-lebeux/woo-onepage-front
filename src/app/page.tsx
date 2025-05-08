@@ -1,4 +1,5 @@
 import Image from "next/image";
+import productData from "@/data/product.json";
 
 export default function Home() {
   return (
@@ -7,13 +8,13 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-6">
-            Découvrez Notre Produit Exceptionnel
+            {productData.hero.title}
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Une solution innovante qui transformera votre quotidien. Simple, efficace, et élégant.
+            {productData.hero.description}
           </p>
           <button className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors">
-            Commander Maintenant
+            {productData.hero.cta}
           </button>
         </div>
       </section>
@@ -21,22 +22,9 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Caractéristiques Principales</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">{productData.features.title}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                title: "Design Premium",
-                description: "Un design élégant et moderne qui s'intègre parfaitement dans votre espace."
-              },
-              {
-                title: "Haute Performance",
-                description: "Des performances exceptionnelles pour répondre à tous vos besoins."
-              },
-              {
-                title: "Facile à Utiliser",
-                description: "Une interface intuitive qui rend l'utilisation simple et agréable."
-              }
-            ].map((feature, index) => (
+            {productData.features.items.map((feature, index) => (
               <div key={index} className="p-6 bg-gray-50 rounded-xl">
                 <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
                 <p className="text-gray-600">{feature.description}</p>
@@ -49,35 +37,26 @@ export default function Home() {
       {/* Benefits Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Pourquoi Nous Choisir ?</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">{productData.benefits.title}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="space-y-6">
-              <div className="flex items-start">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-600 text-white">
-                    ✓
+              {productData.benefits.items.map((benefit, index) => (
+                <div key={index} className="flex items-start">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-600 text-white">
+                      ✓
+                    </div>
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="text-lg font-medium">{benefit.title}</h3>
+                    <p className="mt-2 text-gray-600">{benefit.description}</p>
                   </div>
                 </div>
-                <div className="ml-4">
-                  <h3 className="text-lg font-medium">Qualité Premium</h3>
-                  <p className="mt-2 text-gray-600">Des matériaux de la plus haute qualité pour une durabilité exceptionnelle.</p>
-                </div>
-              </div>
-              <div className="flex items-start">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-600 text-white">
-                    ✓
-                  </div>
-                </div>
-                <div className="ml-4">
-                  <h3 className="text-lg font-medium">Support 24/7</h3>
-                  <p className="mt-2 text-gray-600">Une équipe dédiée à votre service à tout moment.</p>
-                </div>
-              </div>
+              ))}
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="/product-placeholder.jfif"
+                src={productData.benefits.image}
                 alt="Notre produit"
                 fill
                 className="object-cover"
@@ -91,13 +70,13 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold mb-4">Offre Spéciale</h2>
-            <p className="text-xl text-gray-600 mb-8">Profitez de notre prix de lancement</p>
+            <h2 className="text-3xl font-bold mb-4">{productData.pricing.title}</h2>
+            <p className="text-xl text-gray-600 mb-8">{productData.pricing.subtitle}</p>
             <div className="inline-block bg-gray-50 rounded-2xl p-8">
-              <div className="text-5xl font-bold text-blue-600 mb-4">99€</div>
-              <p className="text-gray-600 mb-6">Prix normal : 149€</p>
+              <div className="text-5xl font-bold text-blue-600 mb-4">{productData.pricing.currentPrice}</div>
+              <p className="text-gray-600 mb-6">Prix normal : {productData.pricing.originalPrice}</p>
               <button className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors">
-                Commander Maintenant
+                {productData.pricing.cta}
               </button>
             </div>
           </div>
@@ -109,25 +88,27 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-lg font-semibold mb-4">À Propos</h3>
-              <p className="text-gray-400">Nous sommes dédiés à fournir les meilleurs produits pour nos clients.</p>
+              <h3 className="text-lg font-semibold mb-4">{productData.footer.about.title}</h3>
+              <p className="text-gray-400">{productData.footer.about.description}</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Contact</h3>
-              <p className="text-gray-400">Email: contact@example.com</p>
-              <p className="text-gray-400">Tél: +33 1 23 45 67 89</p>
+              <h3 className="text-lg font-semibold mb-4">{productData.footer.contact.title}</h3>
+              <p className="text-gray-400">Email: {productData.footer.contact.email}</p>
+              <p className="text-gray-400">Tél: {productData.footer.contact.phone}</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Suivez-nous</h3>
+              <h3 className="text-lg font-semibold mb-4">{productData.footer.social.title}</h3>
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-white">Facebook</a>
-                <a href="#" className="text-gray-400 hover:text-white">Twitter</a>
-                <a href="#" className="text-gray-400 hover:text-white">Instagram</a>
+                {productData.footer.social.links.map((link, index) => (
+                  <a key={index} href={link.url} className="text-gray-400 hover:text-white">
+                    {link.name}
+                  </a>
+                ))}
               </div>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>&copy; 2024 Votre Entreprise. Tous droits réservés.</p>
+            <p>{productData.footer.copyright}</p>
           </div>
         </div>
       </footer>

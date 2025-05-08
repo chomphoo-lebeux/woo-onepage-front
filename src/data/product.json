@@ -7,7 +7,7 @@
   "hero": {
     "title": "Le Pyjama qui Révolutionne vos Nuits",
     "subtitle": "100% Bambou • Ultra-Confortable • Écologique",
-    "description": "Découvrez le confort inégalé de notre pyjama en bambou, conçu pour des nuits douces et des matins sereins.",
+    "description": "Découvrez le confort inégalé de notre pyjama en bambou, conçu pour vos nuits douces et vos matins sereins.",
     "cta": "Je Découvre",
     "backgroundVideo": "/videos/hero-background.mp4",
     "features": [
@@ -21,7 +21,7 @@
     "items": [
       {
         "title": "Confort Inégalé",
-        "description": "Le bambou est 3 fois plus doux que le coton, offrant une sensation de douceur incomparable sur la peau.",
+        "description": "Le bambou est 3 fois plus doux que le coton, offrant une sensation de douceur incomparable sur votre peau.",
         "icon": "✨"
       },
       {
@@ -31,17 +31,17 @@
       },
       {
         "title": "Propriétés Naturelles",
-        "description": "Anti-bactérien naturel, régule la température et absorbe l'humidité.",
+        "description": "Anti-bactérien naturel, régule votre température et absorbe l'humidité.",
         "icon": "🌿"
       }
     ]
   },
   "product": {
     "title": "Notre Pyjama Signature",
-    "description": "Conçu avec amour en France, notre pyjama en bambou allie élégance et confort absolu.",
+    "description": "Conçu avec amour en France, notre pyjama en bambou allie élégance et confort absolu pour votre plus grand plaisir.",
     "features": [
       "100% Fibre de Bambou",
-      "Coutures plates pour un confort optimal",
+      "Coutures plates pour votre confort optimal",
       "Élastique doux à la taille",
       "Poches latérales",
       "Lavable en machine"
@@ -105,7 +105,7 @@
     ]
   },
   "cta": {
-    "title": "Prêt(e) à Révolutionner vos Nuits ?",
+    "title": "Prête à Révolutionner vos Nuits ?",
     "subtitle": "Commandez maintenant et recevez votre pyjama sous 2-3 jours ouvrés",
     "button": "Je Commande"
   },

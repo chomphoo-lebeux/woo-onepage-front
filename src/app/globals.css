@@ -48,18 +48,28 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary-dark)] transition-colors;
+    @apply bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary-dark)] transition-colors cursor-pointer;
   }
   
   .btn-secondary {
-    @apply bg-[var(--color-secondary)] text-[var(--color-text)] hover:bg-[var(--color-primary-light)] transition-colors;
+    @apply bg-[var(--color-secondary)] text-[var(--color-text)] hover:bg-[var(--color-primary-light)] transition-colors cursor-pointer;
   }
 
   .btn-eco {
-    @apply bg-[var(--color-eco)] text-white hover:bg-[var(--color-eco-dark)] transition-colors;
+    @apply bg-[var(--color-eco)] text-white hover:bg-[var(--color-eco-dark)] transition-colors cursor-pointer;
   }
 
   .eco-badge {
     @apply bg-[var(--color-eco-pastel)] text-[var(--color-eco-dark)] px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  /* Style pour les boutons de taille */
+  .size-button {
+    @apply border border-[var(--color-primary-light)] px-4 py-2 rounded hover:bg-[var(--color-primary-light)] hover:text-white transition-colors cursor-pointer;
+  }
+
+  /* Style pour le bouton de commande */
+  .order-button {
+    @apply w-full bg-[var(--color-primary)] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[var(--color-primary-dark)] transition-colors cursor-pointer;
   }
 }

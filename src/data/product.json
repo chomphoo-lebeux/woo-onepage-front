@@ -112,28 +112,111 @@
   "footer": {
     "about": {
       "title": "À Propos",
-      "description": "Nous créons des vêtements durables et confortables, en respectant la planète et ses habitants."
+      "description": "Nous créons des vêtements durables et confortables, en respectant la planète et ses habitants. Notre mission est de révolutionner le confort nocturne tout en préservant l'environnement.",
+      "values": [
+        {
+          "title": "Écologie",
+          "description": "Fabrication respectueuse de l'environnement"
+        },
+        {
+          "title": "Éthique",
+          "description": "Production responsable et équitable"
+        },
+        {
+          "title": "Innovation",
+          "description": "Technologies textiles avancées"
+        }
+      ]
     },
     "contact": {
       "title": "Contact",
       "email": "contact@pyjama-bambou.fr",
-      "phone": "+33 1 23 45 67 89"
+      "phone": "+33 1 23 45 67 89",
+      "address": "123 Rue du Bambou, 75000 Paris, France",
+      "hours": "Lun-Ven: 9h-18h",
+      "support": "support@pyjama-bambou.fr"
+    },
+    "legal": {
+      "title": "Informations Légales",
+      "links": [
+        {
+          "name": "Conditions Générales de Vente",
+          "url": "/cgv"
+        },
+        {
+          "name": "Politique de Confidentialité",
+          "url": "/confidentialite"
+        },
+        {
+          "name": "Mentions Légales",
+          "url": "/mentions-legales"
+        },
+        {
+          "name": "Politique des Cookies",
+          "url": "/cookies"
+        }
+      ]
+    },
+    "shipping": {
+      "title": "Livraison & Retours",
+      "links": [
+        {
+          "name": "Modes de Livraison",
+          "url": "/livraison"
+        },
+        {
+          "name": "Délais de Livraison",
+          "url": "/delais"
+        },
+        {
+          "name": "Retours & Échanges",
+          "url": "/retours"
+        },
+        {
+          "name": "Suivi de Commande",
+          "url": "/suivi"
+        }
+      ]
     },
     "social": {
       "title": "Suivez-nous",
+      "description": "Rejoignez notre communauté pour découvrir nos actualités et conseils",
       "links": [
         {
           "name": "Instagram",
-          "url": "#"
+          "url": "#",
+          "icon": "📸"
         },
         {
           "name": "Facebook",
-          "url": "#"
+          "url": "#",
+          "icon": "👥"
         },
         {
           "name": "Pinterest",
-          "url": "#"
+          "url": "#",
+          "icon": "📌"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "#",
+          "icon": "💼"
         }
+      ]
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Inscrivez-vous pour recevoir nos offres exclusives et conseils",
+      "placeholder": "Votre adresse email",
+      "button": "S'inscrire"
+    },
+    "payment": {
+      "title": "Paiement Sécurisé",
+      "methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Apple Pay"
       ]
     },
     "copyright": "© 2024 Pyjama Bambou. Tous droits réservés."

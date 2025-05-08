@@ -2,7 +2,8 @@
   "hero": {
     "title": "Découvrez Notre Produit Exceptionnel",
     "description": "Une solution innovante qui transformera votre quotidien. Simple, efficace, et élégant.",
-    "cta": "Commander Maintenant"
+    "cta": "Commander Maintenant",
+    "backgroundVideo": "/videos/hero-background.mp4"
   },
   "features": {
     "title": "Caractéristiques Principales",

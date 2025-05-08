@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Pyjama en Bambou Écologique | Confort Premium pour Femme",
+    "description": "Découvrez notre pyjama en bambou 100% naturel, ultra-confortable et respectueux de l'environnement. Livraison gratuite en France.",
+    "keywords": "pyjama bambou, pyjama femme, vêtement écologique, bambou naturel, pyjama confortable"
+  },
+  "hero": {
+    "title": "Le Pyjama qui Révolutionne vos Nuits",
+    "subtitle": "100% Bambou • Ultra-Confortable • Écologique",
+    "description": "Découvrez le confort inégalé de notre pyjama en bambou, conçu pour des nuits douces et des matins sereins.",
+    "cta": "Je Découvre",
+    "backgroundVideo": "/videos/hero-background.mp4",
+    "features": [
+      "Anti-transpirant naturel",
+      "Thermorégulateur",
+      "Hypoallergénique"
+    ]
+  },
+  "benefits": {
+    "title": "Pourquoi Choisir le Bambou ?",
+    "items": [
+      {
+        "title": "Confort Inégalé",
+        "description": "Le bambou est 3 fois plus doux que le coton, offrant une sensation de douceur incomparable sur la peau.",
+        "icon": "✨"
+      },
+      {
+        "title": "Respect de l'Environnement",
+        "description": "Le bambou pousse sans pesticides et nécessite 4 fois moins d'eau que le coton.",
+        "icon": "🌱"
+      },
+      {
+        "title": "Propriétés Naturelles",
+        "description": "Anti-bactérien naturel, régule la température et absorbe l'humidité.",
+        "icon": "🌿"
+      }
+    ]
+  },
+  "product": {
+    "title": "Notre Pyjama Signature",
+    "description": "Conçu avec amour en France, notre pyjama en bambou allie élégance et confort absolu.",
+    "features": [
+      "100% Fibre de Bambou",
+      "Coutures plates pour un confort optimal",
+      "Élastique doux à la taille",
+      "Poches latérales",
+      "Lavable en machine"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {
+        "name": "Écru",
+        "code": "#F5F5DC"
+      },
+      {
+        "name": "Gris Perle",
+        "code": "#E8E8E8"
+      },
+      {
+        "name": "Rose Poudré",
+        "code": "#FFE4E1"
+      }
+    ],
+    "price": {
+      "current": "89€",
+      "original": "119€",
+      "savings": "30€"
+    }
+  },
+  "testimonials": {
+    "title": "Ce qu'en Disent nos Client(e)s",
+    "items": [
+      {
+        "name": "Sophie M.",
+        "rating": 5,
+        "comment": "Le plus confortable de mes pyjamas ! Je ne peux plus m'en passer."
+      },
+      {
+        "name": "Julie L.",
+        "rating": 5,
+        "comment": "La qualité est exceptionnelle et le confort incomparable."
+      },
+      {
+        "name": "Marie D.",
+        "rating": 5,
+        "comment": "Enfin un pyjama qui allie style et confort !"
+      }
+    ]
+  },
+  "guarantee": {
+    "title": "Notre Engagement",
+    "items": [
+      {
+        "title": "Livraison Gratuite",
+        "description": "En France métropolitaine"
+      },
+      {
+        "title": "Satisfaction Garantie",
+        "description": "30 jours pour changer d'avis"
+      },
+      {
+        "title": "Fabrication Éthique",
+        "description": "Respect des normes internationales"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt(e) à Révolutionner vos Nuits ?",
+    "subtitle": "Commandez maintenant et recevez votre pyjama sous 2-3 jours ouvrés",
+    "button": "Je Commande"
+  },
+  "footer": {
+    "about": {
+      "title": "À Propos",
+      "description": "Nous créons des vêtements durables et confortables, en respectant la planète et ses habitants."
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "contact@pyjama-bambou.fr",
+      "phone": "+33 1 23 45 67 89"
+    },
+    "social": {
+      "title": "Suivez-nous",
+      "links": [
+        {
+          "name": "Instagram",
+          "url": "#"
+        },
+        {
+          "name": "Facebook",
+          "url": "#"
+        },
+        {
+          "name": "Pinterest",
+          "url": "#"
+        }
+      ]
+    },
+    "copyright": "© 2024 Pyjama Bambou. Tous droits réservés."
+  }
+} 

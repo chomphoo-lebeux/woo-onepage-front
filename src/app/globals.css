@@ -3,6 +3,20 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-primary: #FF69B4;      /* Rose vif */
+  --color-primary-light: #FFB6C1; /* Rose clair */
+  --color-primary-dark: #DB7093;  /* Rose foncé */
+  --color-secondary: #F8E8EE;    /* Rose très pâle */
+  --color-accent: #E6A4B4;       /* Rose poudré */
+  --color-background: #FFF5F7;   /* Fond rose très clair */
+  --color-text: #4A4A4A;         /* Texte gris foncé */
+  --color-text-light: #666666;   /* Texte gris moyen */
+  
+  /* Palette écologique */
+  --color-eco: #4CAF50;          /* Vert principal */
+  --color-eco-light: #81C784;    /* Vert clair */
+  --color-eco-dark: #388E3C;     /* Vert foncé */
+  --color-eco-pastel: #E8F5E9;   /* Vert très pâle */
 }
 
 @theme inline {
@@ -23,4 +37,29 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary-dark)] transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-[var(--color-secondary)] text-[var(--color-text)] hover:bg-[var(--color-primary-light)] transition-colors;
+  }
+
+  .btn-eco {
+    @apply bg-[var(--color-eco)] text-white hover:bg-[var(--color-eco-dark)] transition-colors;
+  }
+
+  .eco-badge {
+    @apply bg-[var(--color-eco-pastel)] text-[var(--color-eco-dark)] px-3 py-1 rounded-full text-sm font-medium;
+  }
 }

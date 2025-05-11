@@ -11,7 +11,8 @@
   --color-background: #FFF5F7;   /* Fond rose très clair */
   --color-text: #4A4A4A;         /* Texte gris foncé */
   --color-text-light: #666666;   /* Texte gris moyen */
-  
+  --color-text-white: #ffffff;   /* Texte blanc */
+
   /* Palette écologique */
   --color-eco: #4CAF50;          /* Vert principal */
   --color-eco-light: #81C784;    /* Vert clair */
@@ -41,7 +42,7 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary-dark)] transition-colors cursor-pointer;
+    @apply bg-[var(--color-primary)] text-[var(--color-text-white)] hover:bg-[var(--color-primary-dark)] transition-colors cursor-pointer;
   }
   
   .btn-secondary {
@@ -49,7 +50,7 @@ body {
   }
 
   .btn-eco {
-    @apply bg-[var(--color-eco)] text-white hover:bg-[var(--color-eco-dark)] transition-colors cursor-pointer;
+    @apply bg-[var(--color-eco)] text-[var(--color-text-white)] hover:bg-[var(--color-eco-dark)] transition-colors cursor-pointer;
   }
 
   .eco-badge {
@@ -58,12 +59,66 @@ body {
 
   /* Style pour les boutons de taille */
   .size-button {
-    @apply border border-[var(--color-primary-light)] px-4 py-2 rounded hover:bg-[var(--color-primary-light)] hover:text-white transition-colors cursor-pointer text-[var(--color-text-light)];
+    @apply border border-[var(--color-primary-light)] px-4 py-2 rounded hover:bg-[var(--color-primary-light)] hover:text-[var(--color-text-white)] transition-colors cursor-pointer text-[var(--color-text-light)];
   }
 
   /* Style pour le bouton de commande */
   .order-button {
-    @apply w-full bg-[var(--color-primary)] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[var(--color-primary-dark)] transition-colors cursor-pointer;
+    @apply w-full bg-[var(--color-primary)] text-[var(--color-text-white)] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[var(--color-primary-dark)] transition-colors cursor-pointer;
+  }
+
+  /* Classes utilitaires pour les couleurs de texte */
+  .text-primary {
+    @apply text-[var(--color-primary)];
+  }
+
+  .text-primary-dark {
+    @apply text-[var(--color-primary-dark)];
+  }
+
+  .text-primary-light {
+    @apply text-[var(--color-primary-light)];
+  }
+
+  .text-secondary {
+    @apply text-[var(--color-secondary)];
+  }
+
+  .text-light {
+    @apply text-[var(--color-text-light)];
+  }
+
+  .text-white {
+    @apply text-[var(--color-text-white)];
+  }
+
+  /* Classes utilitaires pour les couleurs de fond */
+  .bg-primary {
+    @apply bg-[var(--color-primary)];
+  }
+
+  .bg-primary-dark {
+    @apply bg-[var(--color-primary-dark)];
+  }
+
+  .bg-primary-light {
+    @apply bg-[var(--color-primary-light)];
+  }
+
+  .bg-secondary {
+    @apply bg-[var(--color-secondary)];
+  }
+
+  .bg-accent {
+    @apply bg-[var(--color-accent)];
+  }
+
+  .bg-base {
+    @apply bg-[var(--background)];
+  }
+
+  .bg-surface {
+    @apply bg-[var(--color-background)];
   }
 }
 

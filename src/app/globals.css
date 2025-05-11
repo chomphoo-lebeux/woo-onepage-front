@@ -120,6 +120,10 @@ body {
   .bg-surface {
     @apply bg-[var(--color-background)];
   }
+
+  .border-primary-light {
+    @apply border-[var(--color-primary-light)];
+  }
 }
 
 @keyframes marquee {

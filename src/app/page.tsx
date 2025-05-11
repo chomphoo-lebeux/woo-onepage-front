@@ -8,6 +8,8 @@ import ProductSection from "@/components/ProductSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import FinalCTASection from "@/components/FinalCTASection";
+import ProductGallerySection from "@/components/ProductGallerySection";
+import CareGuideSection from "@/components/CareGuideSection";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <HeroSection />
       <BenefitsSection />
       <ProductSection />
+      <ProductGallerySection />
+      <CareGuideSection />
       <TestimonialsSection />
       <GuaranteeSection />
       <FinalCTASection />

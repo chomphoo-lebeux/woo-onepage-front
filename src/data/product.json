@@ -1,130 +1,140 @@
 {
   "meta": {
-    "title": "Pyjama en Bambou Écologique | Confort Premium pour Femme",
-    "description": "Découvrez notre pyjama en bambou 100% naturel, ultra-confortable et respectueux de l'environnement. Livraison gratuite en France.",
-    "keywords": "pyjama bambou, pyjama femme, vêtement écologique, bambou naturel, pyjama confortable"
+    "title": "Pyjama en Bambou Premium | Révolutionnez vos Nuits",
+    "description": "Découvrez le pyjama en bambou qui transforme vos nuits. 89,90€ pour des nuits d'exception. Livraison gratuite en France.",
+    "keywords": "pyjama bambou premium, sommeil réparateur, confort nocturne, pyjama écologique, bien-être nocturne"
   },
   "hero": {
-    "title": "Le Pyjama qui Révolutionne vos Nuits",
-    "subtitle": "100% Bambou • Ultra-Confortable • Écologique",
-    "description": "Découvrez le confort inégalé de notre pyjama en bambou, conçu pour vos nuits douces et vos matins sereins.",
-    "cta": "Je Découvre",
+    "title": "Réveillez-vous Plus Belle, Plus Reposée",
+    "subtitle": "89,90€ • Pyjama en Bambou Premium • Nuits Révolutionnaires",
+    "description": "Imaginez vous glisser chaque soir dans un cocon de douceur naturelle. Notre pyjama en bambou premium, à seulement 89,90€, transforme vos nuits en moments de pur bien-être. Découvrez pourquoi des milliers de femmes ne jurent plus que par lui.",
+    "cta": "Je Découvre à 89,90€",
     "backgroundVideo": "/videos/hero-background.mp4",
     "features": [
-      "Anti-transpirant naturel",
-      "Thermorégulateur",
-      "Hypoallergénique"
+      "Sommeil réparateur garanti",
+      "Peau plus belle au réveil",
+      "Nuits fraîches en été, douces en hiver"
     ]
   },
   "benefits": {
-    "title": "Pourquoi Choisir le Bambou ?",
+    "title": "Pourquoi 89,90€ pour ce Pyjama Changent Tout",
     "items": [
       {
-        "title": "Confort Inégalé",
-        "description": "Le bambou est 3 fois plus doux que le coton, offrant une sensation de douceur incomparable sur votre peau.",
+        "title": "Une Douceur qui Transforme vos Nuits",
+        "description": "Le bambou, 3 fois plus doux que le coton, caresse votre peau comme une brise légère. À 89,90€, c'est l'investissement bien-être le plus rentable pour vos nuits.",
         "icon": "✨"
       },
       {
-        "title": "Respect de l'Environnement",
-        "description": "Le bambou pousse sans pesticides et nécessite 4 fois moins d'eau que le coton.",
+        "title": "Un Choix qui Respecte Votre Peau",
+        "description": "Le bambou, naturellement hypoallergénique, préserve la beauté de votre peau. Pour 89,90€, offrez-vous des nuits qui embellissent votre teint.",
         "icon": "🌱"
       },
       {
-        "title": "Propriétés Naturelles",
-        "description": "Anti-bactérien naturel, régule votre température et absorbe l'humidité.",
+        "title": "Un Confort qui Révolutionne votre Sommeil",
+        "description": "Grâce à ses propriétés thermorégulatrices, le bambou vous maintient à la température idéale toute la nuit. 89,90€ pour des nuits parfaitement équilibrées.",
         "icon": "🌿"
+      },
+      {
+        "title": "L'Excellence du Bambou Chinois",
+        "description": "La Chine, premier producteur mondial de bambou avec plus de 500 espèces, nous permet de sélectionner les meilleures fibres. Cette expertise millénaire, unique au monde, garantit une qualité premium inégalée.",
+        "icon": "🎋"
       }
     ]
   },
   "product": {
-    "title": "Pyjama en Bambou Premium",
-    "description": "Découvrez notre pyjama en bambou, alliant confort exceptionnel et respect de l'environnement. Sa douceur incomparable et ses propriétés thermorégulatrices en font le compagnon idéal pour vos nuits.",
+    "title": "Le Pyjama qui Transforme vos Nuits",
+    "description": "À seulement 89,90€, découvrez cette seconde peau en bambou qui révolutionne vos nuits. Sa douceur incomparable et ses propriétés naturelles en font le compagnon idéal de vos moments les plus doux. Un véritable cocon de bien-être qui vous accompagne chaque soir. Fabriqué avec les meilleurs bambous de Chine, leader mondial incontesté de la production de bambou avec plus de 500 espèces différentes.",
     "features": [
-      "Tissu en bambou 100% naturel",
-      "Thermorégulation naturelle",
-      "Anti-transpiration",
-      "Hypoallergénique",
-      "Doux et respirant"
+      "Tissu en bambou premium (300 g/m²)",
+      "Coutures plates pour un confort absolu",
+      "Élastique doux qui épouse votre taille",
+      "Poches latérales pour vos petits trésors",
+      "Lavable en machine, douceur préservée",
+      "Bambou sélectionné en Chine, leader mondial du bambou"
     ],
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
     "colors": [
       {
-        "name": "Noir",
-        "code": "#000000"
+        "name": "Écru Naturel",
+        "code": "#F5F5DC",
+        "description": "La teinte pure qui sublime votre beauté naturelle"
       },
       {
-        "name": "Bleu Marine",
-        "code": "#000080"
+        "name": "Gris Perle",
+        "code": "#E8E8E8",
+        "description": "L'élégance intemporelle pour des nuits sophistiquées"
       },
       {
-        "name": "Gris",
-        "code": "#808080"
+        "name": "Rose Poudré",
+        "code": "#FFE4E1",
+        "description": "La douceur romantique qui caresse votre peau"
       }
     ],
     "price": {
-      "current": "89,90 €",
-      "original": "119,90 €",
-      "savings": "25%"
+      "current": "89,90€",
+      "original": "119,90€",
+      "savings": "30€",
+      "message": "Économisez 30€ aujourd'hui"
     }
   },
   "testimonials": {
-    "title": "Ce qu'en Disent nos Client(e)s",
+    "title": "Leurs Nuits Ont Changé",
     "items": [
       {
         "name": "Sophie M.",
         "rating": 5,
-        "comment": "Le plus confortable de mes pyjamas ! Je ne peux plus m'en passer."
+        "comment": "Depuis que j'ai découvert ce pyjama, mes nuits sont transformées. Je me réveille plus reposée, plus belle, plus épanouie."
       },
       {
         "name": "Julie L.",
         "rating": 5,
-        "comment": "La qualité est exceptionnelle et le confort incomparable."
+        "comment": "Le meilleur investissement pour mon bien-être. La qualité est exceptionnelle et le confort incomparable."
       },
       {
         "name": "Marie D.",
         "rating": 5,
-        "comment": "Enfin un pyjama qui allie style et confort !"
+        "comment": "Ce pyjama a révolutionné mes nuits. La douceur du bambou est magique, je ne peux plus m'en passer !"
       }
     ]
   },
   "guarantee": {
-    "title": "Notre Engagement",
+    "title": "Votre Satisfaction, Notre Priorité",
     "items": [
       {
         "title": "Livraison Gratuite",
-        "description": "En France métropolitaine"
+        "description": "Votre pyjama à 89,90€ livré gratuitement en France"
       },
       {
         "title": "Satisfaction Garantie",
-        "description": "30 jours pour changer d'avis"
+        "description": "30 jours pour tomber amoureuse de votre pyjama"
       },
       {
-        "title": "Fabrication Éthique",
-        "description": "Respect des normes internationales"
+        "title": "Qualité Premium",
+        "description": "Un pyjama à 89,90€ qui dure des années"
       }
     ]
   },
   "cta": {
     "title": "Prête à Révolutionner vos Nuits ?",
-    "subtitle": "Commandez maintenant et recevez votre pyjama sous 2-3 jours ouvrés",
-    "button": "Commander maintenant"
+    "subtitle": "Commandez maintenant votre pyjama à 89,90€ et recevez-le sous 2-3 jours ouvrés",
+    "button": "Je Commande à 89,90€"
   },
   "footer": {
     "about": {
-      "title": "À Propos",
-      "description": "Nous créons des vêtements durables et confortables, en respectant la planète et ses habitants. Notre mission est de révolutionner le confort nocturne tout en préservant l'environnement.",
+      "title": "Notre Mission",
+      "description": "Nous créons des vêtements qui transforment vos nuits. Notre pyjama en bambou à 89,90€ est le fruit de notre engagement pour votre bien-être et celui de la planète. Nous sélectionnons les meilleurs bambous de Chine, leader mondial incontesté avec plus de 500 espèces, garantissant ainsi une qualité premium inégalée.",
       "values": [
         {
-          "title": "Écologie",
-          "description": "Fabrication respectueuse de l'environnement"
+          "title": "Excellence",
+          "description": "Un pyjama premium à 89,90€ qui sublime vos nuits"
         },
         {
-          "title": "Éthique",
-          "description": "Production responsable et équitable"
+          "title": "Authenticité",
+          "description": "Bambou sélectionné en Chine, leader mondial du bambou"
         },
         {
           "title": "Innovation",
-          "description": "Technologies textiles avancées"
+          "description": "Des technologies textiles qui révolutionnent le sommeil"
         }
       ]
     },
@@ -161,7 +171,7 @@
       "title": "Livraison & Retours",
       "links": [
         {
-          "name": "Modes de Livraison",
+          "name": "Livraison Gratuite",
           "url": "/livraison"
         },
         {
@@ -179,8 +189,8 @@
       ]
     },
     "social": {
-      "title": "Suivez-nous",
-      "description": "Rejoignez notre communauté pour découvrir nos actualités et conseils",
+      "title": "Rejoignez Notre Communauté",
+      "description": "Découvrez les témoignages de celles qui ont transformé leurs nuits avec notre pyjama à 89,90€",
       "links": [
         {
           "name": "Instagram",
@@ -205,10 +215,10 @@
       ]
     },
     "newsletter": {
-      "title": "Newsletter",
-      "description": "Inscrivez-vous pour recevoir nos offres exclusives et conseils",
+      "title": "Restez Informée",
+      "description": "Recevez nos offres exclusives et conseils pour des nuits encore plus douces",
       "placeholder": "Votre adresse email",
-      "button": "S'inscrire"
+      "button": "Je m'inscris"
     },
     "payment": {
       "title": "Paiement Sécurisé",

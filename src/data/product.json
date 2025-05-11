@@ -37,34 +37,34 @@
     ]
   },
   "product": {
-    "title": "Notre Pyjama Signature",
-    "description": "Conçu avec amour en France, notre pyjama en bambou allie élégance et confort absolu pour votre plus grand plaisir.",
+    "title": "Pyjama en Bambou Premium",
+    "description": "Découvrez notre pyjama en bambou, alliant confort exceptionnel et respect de l'environnement. Sa douceur incomparable et ses propriétés thermorégulatrices en font le compagnon idéal pour vos nuits.",
     "features": [
-      "100% Fibre de Bambou",
-      "Coutures plates pour votre confort optimal",
-      "Élastique doux à la taille",
-      "Poches latérales",
-      "Lavable en machine"
+      "Tissu en bambou 100% naturel",
+      "Thermorégulation naturelle",
+      "Anti-transpiration",
+      "Hypoallergénique",
+      "Doux et respirant"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "sizes": ["S", "M", "L", "XL"],
     "colors": [
       {
-        "name": "Écru",
-        "code": "#F5F5DC"
+        "name": "Noir",
+        "code": "#000000"
       },
       {
-        "name": "Gris Perle",
-        "code": "#E8E8E8"
+        "name": "Bleu Marine",
+        "code": "#000080"
       },
       {
-        "name": "Rose Poudré",
-        "code": "#FFE4E1"
+        "name": "Gris",
+        "code": "#808080"
       }
     ],
     "price": {
-      "current": "89€",
-      "original": "119€",
-      "savings": "30€"
+      "current": "89,90 €",
+      "original": "119,90 €",
+      "savings": "25%"
     }
   },
   "testimonials": {
@@ -107,7 +107,7 @@
   "cta": {
     "title": "Prête à Révolutionner vos Nuits ?",
     "subtitle": "Commandez maintenant et recevez votre pyjama sous 2-3 jours ouvrés",
-    "button": "Je Commande"
+    "button": "Commander maintenant"
   },
   "footer": {
     "about": {
@@ -220,5 +220,25 @@
       ]
     },
     "copyright": "© 2024 Pyjama Bambou. Tous droits réservés."
+  },
+  "gallery": {
+    "images": [
+      {
+        "src": "/product-main.jpg",
+        "alt": "Pyjama en bambou - Vue principale"
+      },
+      {
+        "src": "/product-main.jpg",
+        "alt": "Pyjama en bambou - Vue principale"
+      },
+      {
+        "src": "/product-main.jpg",
+        "alt": "Pyjama en bambou - Vue principale"
+      },
+      {
+        "src": "/product-main.jpg",
+        "alt": "Pyjama en bambou - Vue principale"
+      }
+    ]
   }
 } 

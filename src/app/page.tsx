@@ -84,7 +84,7 @@ export default function Home() {
               <p className="text-[var(--color-text-light)] mb-8">{productData.product.description}</p>
               <ul className="space-y-3 mb-8">
                 {productData.product.features.map((feature, index) => (
-                  <li key={index} className="flex items-center">
+                  <li key={index} className="flex items-center text-[var(--color-text-light)]">
                     <span className="text-[var(--color-primary)] mr-2">✓</span>
                     {feature}
                   </li>

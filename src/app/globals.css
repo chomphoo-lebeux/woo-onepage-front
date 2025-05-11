@@ -26,13 +26,6 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
@@ -65,7 +58,7 @@ body {
 
   /* Style pour les boutons de taille */
   .size-button {
-    @apply border border-[var(--color-primary-light)] px-4 py-2 rounded hover:bg-[var(--color-primary-light)] hover:text-white transition-colors cursor-pointer;
+    @apply border border-[var(--color-primary-light)] px-4 py-2 rounded hover:bg-[var(--color-primary-light)] hover:text-white transition-colors cursor-pointer text-[var(--color-text-light)];
   }
 
   /* Style pour le bouton de commande */

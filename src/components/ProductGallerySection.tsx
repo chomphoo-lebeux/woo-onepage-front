@@ -270,20 +270,15 @@ export default function ProductGallerySection() {
   return (
     <section className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* En-tête avec CTA principal */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-4 text-primary-dark">
-            Un Pyjama Exceptionnel
-          </h2>
-          <p className="text-center text-light mb-8 max-w-2xl mx-auto">
-            Découvrez pourquoi notre pyjama en bambou est le choix idéal pour un sommeil de qualité et un confort quotidien. Chaque détail a été pensé pour votre bien-être.
-          </p>
-          <button className="btn-primary px-8 py-4 rounded-lg text-lg font-semibold mb-8">
-            Commander Maintenant
-          </button>
-        </div>
+        {/* En-tête */}
+        <h2 className="text-3xl font-bold text-center mb-4 text-primary-dark">
+          Un Pyjama Exceptionnel
+        </h2>
+        <p className="text-center text-light mb-12 max-w-2xl mx-auto">
+          Découvrez pourquoi notre pyjama en bambou est le choix idéal pour un sommeil de qualité et un confort quotidien. Chaque détail a été pensé pour votre bien-être.
+        </p>
 
-        {/* Caractéristiques principales - Mise en avant immédiate */}
+        {/* Caractéristiques principales */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {productFeatures.map((feature, index) => (
             <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
@@ -321,36 +316,7 @@ export default function ProductGallerySection() {
           ))}
         </div>
 
-        {/* Comparaison - Pour convaincre rapidement */}
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
-          <h3 className="text-2xl font-bold mb-8 text-primary-dark text-center">
-            Pourquoi Nous Sommes Différents
-          </h3>
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead>
-                <tr className="bg-secondary">
-                  <th className="p-4 text-left text-primary-dark">Caractéristique</th>
-                  <th className="p-4 text-left text-primary-dark">Notre Pyjama</th>
-                  <th className="p-4 text-left text-primary-dark">Autres Pyjamas</th>
-                  <th className="p-4 text-left text-primary-dark">Avantage</th>
-                </tr>
-              </thead>
-              <tbody>
-                {comparisonFeatures.map((feature, index) => (
-                  <tr key={index} className="border-b border-gray-200">
-                    <td className="p-4 font-semibold text-primary-dark">{feature.feature}</td>
-                    <td className="p-4 text-light">{feature.ourProduct}</td>
-                    <td className="p-4 text-light">{feature.others}</td>
-                    <td className="p-4 text-primary">{feature.advantage}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        {/* Bénéfices pour le sommeil - Renforcer la valeur */}
+        {/* Bénéfices pour le sommeil */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
           <h3 className="text-2xl font-bold mb-8 text-primary-dark text-center">
             Un Sommeil de Qualité
@@ -374,7 +340,106 @@ export default function ProductGallerySection() {
           </div>
         </div>
 
-        {/* Avis Clients - Social Proof */}
+        {/* Spécifications techniques */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
+          <h3 className="text-2xl font-bold mb-6 text-primary-dark text-center">
+            Spécifications Techniques
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {specifications.map((spec, index) => (
+              <div key={index} className="p-4 bg-secondary rounded-lg">
+                <h4 className="font-semibold mb-3 text-primary-dark">{spec.category}</h4>
+                <ul className="space-y-2">
+                  {spec.items.map((item, idx) => (
+                    <li key={idx} className="flex items-center text-light">
+                      <span className="text-primary mr-2">•</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Engagement écologique */}
+        <div className="bg-secondary rounded-lg p-8 mb-16">
+          <h3 className="text-2xl font-bold mb-8 text-primary-dark text-center">
+            Notre Engagement Écologique
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {ecoFeatures.map((feature, index) => (
+              <div key={index} className="bg-white rounded-lg p-6">
+                <div className="text-4xl mb-4">{feature.icon}</div>
+                <h4 className="text-xl font-semibold mb-3 text-primary-dark">{feature.title}</h4>
+                <p className="text-light mb-4">{feature.description}</p>
+                <ul className="space-y-2">
+                  {feature.points.map((point, idx) => (
+                    <li key={idx} className="flex items-center text-light">
+                      <span className="text-primary mr-2">•</span>
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Guide d'entretien */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
+          <h3 className="text-2xl font-bold mb-8 text-primary-dark text-center">
+            Guide d'Entretien
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {careInstructions.map((instruction, index) => (
+              <div key={index} className="p-6 bg-secondary rounded-lg">
+                <div className="text-3xl font-bold text-primary mb-4">Étape {instruction.step}</div>
+                <h4 className="text-xl font-semibold mb-3 text-primary-dark">{instruction.title}</h4>
+                <p className="text-light mb-4">{instruction.description}</p>
+                <ul className="space-y-2">
+                  {instruction.tips.map((tip, idx) => (
+                    <li key={idx} className="flex items-center text-light">
+                      <span className="text-primary mr-2">•</span>
+                      {tip}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Avantages supplémentaires */}
+        <div className="bg-secondary rounded-lg p-8 mb-16">
+          <h3 className="text-2xl font-bold mb-6 text-primary-dark text-center">
+            Pourquoi Choisir Notre Pyjama ?
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="text-center">
+              <div className="text-4xl mb-3">🌱</div>
+              <h4 className="font-semibold mb-2 text-primary-dark">Écologique</h4>
+              <p className="text-light">Fabrication respectueuse de l'environnement</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-3">💫</div>
+              <h4 className="font-semibold mb-2 text-primary-dark">Confortable</h4>
+              <p className="text-light">Adaptation parfaite à votre morphologie</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-3">✨</div>
+              <h4 className="font-semibold mb-2 text-primary-dark">Durable</h4>
+              <p className="text-light">Qualité premium pour une longue durée de vie</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-3">🌟</div>
+              <h4 className="font-semibold mb-2 text-primary-dark">Sain</h4>
+              <p className="text-light">Propriétés naturelles bénéfiques</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Avis Clients */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
           <h3 className="text-2xl font-bold mb-8 text-primary-dark text-center">
             Ce Que Nos Clients Disent
@@ -411,7 +476,7 @@ export default function ProductGallerySection() {
           </div>
         </div>
 
-        {/* Guide des Tailles - Information pratique */}
+        {/* Guide des Tailles */}
         <div className="bg-secondary rounded-lg p-8 mb-16">
           <h3 className="text-2xl font-bold mb-8 text-primary-dark text-center">
             Guide des Tailles
@@ -442,60 +507,43 @@ export default function ProductGallerySection() {
           </div>
         </div>
 
-        {/* Spécifications techniques - Détails importants */}
+        {/* Comparaison */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
-          <h3 className="text-2xl font-bold mb-6 text-primary-dark text-center">
-            Spécifications Techniques
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {specifications.map((spec, index) => (
-              <div key={index} className="p-4 bg-secondary rounded-lg">
-                <h4 className="font-semibold mb-3 text-primary-dark">{spec.category}</h4>
-                <ul className="space-y-2">
-                  {spec.items.map((item, idx) => (
-                    <li key={idx} className="flex items-center text-light">
-                      <span className="text-primary mr-2">•</span>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Engagement écologique - Valeurs */}
-        <div className="bg-secondary rounded-lg p-8 mb-16">
           <h3 className="text-2xl font-bold mb-8 text-primary-dark text-center">
-            Notre Engagement Écologique
+            Pourquoi Nous Sommes Différents
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {ecoFeatures.map((feature, index) => (
-              <div key={index} className="bg-white rounded-lg p-6">
-                <div className="text-4xl mb-4">{feature.icon}</div>
-                <h4 className="text-xl font-semibold mb-3 text-primary-dark">{feature.title}</h4>
-                <p className="text-light mb-4">{feature.description}</p>
-                <ul className="space-y-2">
-                  {feature.points.map((point, idx) => (
-                    <li key={idx} className="flex items-center text-light">
-                      <span className="text-primary mr-2">•</span>
-                      {point}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+          <div className="overflow-x-auto">
+            <table className="w-full">
+              <thead>
+                <tr className="bg-secondary">
+                  <th className="p-4 text-left text-primary-dark">Caractéristique</th>
+                  <th className="p-4 text-left text-primary-dark">Notre Pyjama</th>
+                  <th className="p-4 text-left text-primary-dark">Autres Pyjamas</th>
+                  <th className="p-4 text-left text-primary-dark">Avantage</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonFeatures.map((feature, index) => (
+                  <tr key={index} className="border-b border-gray-200">
+                    <td className="p-4 font-semibold text-primary-dark">{feature.feature}</td>
+                    <td className="p-4 text-light">{feature.ourProduct}</td>
+                    <td className="p-4 text-light">{feature.others}</td>
+                    <td className="p-4 text-primary">{feature.advantage}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
 
-        {/* FAQ - Répondre aux questions */}
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
+        {/* FAQ */}
+        <div className="bg-secondary rounded-lg p-8 mb-16">
           <h3 className="text-2xl font-bold mb-8 text-primary-dark text-center">
             Questions Fréquentes
           </h3>
           <div className="space-y-6">
             {faqItems.map((faq, index) => (
-              <div key={index} className="bg-secondary rounded-lg p-6">
+              <div key={index} className="bg-white rounded-lg p-6">
                 <h4 className="text-xl font-semibold mb-3 text-primary-dark">
                   {faq.question}
                 </h4>
@@ -505,7 +553,7 @@ export default function ProductGallerySection() {
           </div>
         </div>
 
-        {/* Call to Action Final - Conversion */}
+        {/* Call to Action Final */}
         <div className="text-center bg-white rounded-lg shadow-lg p-8">
           <h3 className="text-2xl font-bold mb-4 text-primary-dark">
             Prêt à Découvrir le Confort Exceptionnel ?
